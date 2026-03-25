@@ -50,13 +50,11 @@ header h2{
 .first-section{
     display: flex;
     justify-content: space-between;
-
-    height: 34rem;
     margin-bottom: .5rem;
 }
 
 .left-section{
-    height: 100%;
+    height: auto;
     width: 20%;
     background-color: rgb(129, 125, 125);
 
@@ -81,7 +79,7 @@ header h2{
         align-items: center;
         justify-content: center;
         
-        height: 20rem;
+        height: 30rem;
         margin-bottom: .5rem;
 
         .container{
@@ -117,18 +115,18 @@ header h2{
             background-color: rgb(27, 126, 27);
 
             margin-bottom: .5rem;
-
+            padding: .5rem;
         }
 
         .container{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
 
             div{
+                padding: 20px;
                 background-color: rgb(123, 229, 123);
-                height: 10.6rem;
-                width: 30%;
+                min-height: 150px;
 
                 display: flex;
                 justify-content: center;
