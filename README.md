@@ -34,3 +34,18 @@ Vous devez fournir dans votre dépôt Git :
 - Utilisation correcte de **Flexbox / Grid**
 - Organisation et lisibilité du code
 - Qualité de la documentation dans le README
+
+
+
+
+
+
+## Explication des choix éffectués pour le responsive du site web
+
+### Parites concernées par les modifications
+
+   -Les modifications concernent en premier lieu la section ayant la classe **first-section**. Il était necéssaire de disposer en colone les sections enfants ayant les classes **left-section** et **right-section** pour que le site soit mieu présenté sur les smartphones.
+
+   -Ensuite, il fallait améliorer la présentation des services de la section **services-section** pour que ces derniers soit mieu présenté sur les smartphones. Une disposition en colone est plus appropier. 
+
+   -Toutes ces modifications s'appliquent aux smatphones, soit des écans compris entre *** 0px à 767px ***

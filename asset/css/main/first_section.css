@@ -92,3 +92,25 @@
 }
 /* first section end */
 
+
+/* responsive */
+@media screen and (max-width: 767px){
+
+    /* first section */
+    .first-section{
+        flex-direction: column;   
+        gap: .5rem;
+    }
+    .left-section, .right-section{
+        width: 100%;
+    }
+    .right-section{
+        padding-left: 0;
+        .services-section .container{
+            grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+            gap: .5rem;
+        }
+    }
+
+}
+/* responsive end*/
