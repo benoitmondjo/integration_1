@@ -1,50 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-
-
-*{
-    padding: 0;margin: 0;
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
-}
-
-
-
-html{
-    font-size: 16px;
-}
-
-
-
-
-.main-container{
-    max-width: 1400px;
-    margin: 0 auto;
-}
-
-
-
-
-/* header */
-header{
-   background-color: rgb(104, 104, 224);
-   height: 4rem;
-
-   display: flex;
-   align-items: center;
-   justify-content: center;
-
-   margin-bottom: .5rem;
-}
-header h2{
-    font-size: 1rem;
-    color: white;
-}
-/* header end */
-
-
-
-
-
 
 /* first section */
 .first-section{
@@ -79,7 +32,7 @@ header h2{
         align-items: center;
         justify-content: center;
         
-        height: 30rem;
+        min-height: 60vh;
         margin-bottom: .5rem;
 
         .container{
@@ -108,7 +61,7 @@ header h2{
     }
 
     .services-section{
-
+        height: auto;
         h2{
             color: white;
             text-align: center;
@@ -126,7 +79,7 @@ header h2{
             div{
                 padding: 20px;
                 background-color: rgb(123, 229, 123);
-                min-height: 150px;
+                min-height: 25vh;
 
                 display: flex;
                 justify-content: center;
@@ -139,53 +92,3 @@ header h2{
 }
 /* first section end */
 
-
-
-
-
-/* seconde section */
-.second-section{
-    height: 13rem;
-
-    background-color: rgb(170, 84, 192);
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    margin-bottom: .5rem;
-
-
-    h2{
-            color: white;
-            text-align: center;
-
-            text-transform: uppercase;
-            font-size: 1.1rem;
-    }
-
-}
-/* seconde section end*/
-
-
-
-
-
-/* footer */
-footer{
-    background-color: rgb(47, 47, 49);
-    height: 4rem;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-   h2{
-        color: white;
-        text-align: center;
-
-        text-transform: uppercase;
-        font-size: 1.1rem;
-   }
-}
-/* footer end */
